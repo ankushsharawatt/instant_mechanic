@@ -2,14 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js","scripts": {
-  "dev": "tsx watch src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js",
-  "seed": "tsx src/seed/seed.ts",
-  "create-indexes": "tsx src/scripts/create_indexes.ts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "seed": "tsx src/seed/seed.ts",
+    "create-indexes": "tsx src/scripts/create_indexes.ts",
     "backfill-search-fields": "tsx src/scripts/backfill_search_fields.ts"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,8 +21,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.9.4",
-    "socket.io": "^4.8.3"
+    "mongoose": "^9.9.4"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
